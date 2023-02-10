@@ -37,7 +37,7 @@ Boxplots of `PAY_AMT#` contrasting defaulters and non-defaulters suggest the pai
 A correlation analysis shows some mild correlations among some of the `PAY_AMT#` features. Similar to the analysis ran for `BILL_AMT#`, we'll discretize the last payment made (Sep) into several categories. This analysis shows the probability of defaulting:
 
 - is around 20% for small payments (up to 43,677);
-- except for two bands, it remains fairly constant (at about 10%) for values up to 305,743;
+- except for two bands, remains fairly constant (at about 10%) for values up to 305,743;
 - and becomes 0% for values greater than 305,743.
 
 This last analysis reinforces that it might be worthwhile to look at  the paid amounts to understand defaulting.
