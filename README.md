@@ -6,6 +6,6 @@ The EDA can be found in the folder **eda**. I hope to update this work with some
 
 The modeling work can be found in the folder **ml**. I hope to update this work with a neural network model and a hyperparameter tuning using cross-validation to address overfitting.
 
-I highly appreciate feedback and you can reach out to me on [LinkedIn](https://www.linkedin.com/in/jaime-data-science/) any time.
+I highly appreciate feedback and you can reach out to me on [LinkedIn](https://bit.ly/jaime-linkedin) any time. I'm also working on other projects. Check this out in my [personal website](https://bit.ly/jaime-website).
 
 Thanks for reading!
