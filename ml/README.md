@@ -18,11 +18,26 @@ We also explore a k-fold cross-validation with the default implementation of the
 
 ## Model comparison
 
-Comparing both models, we can conclude that both models perform virtually the same:
+The confusion matrices are shown below.
+
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="cm_log-reg.png" width="300"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="cm_xgboost.png" width="300"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+Some overall performance metrics are shown next.
 
 | Model                     | Accuracy  | Precision | Recall    | F1 score  | Generalization error  |
 | ---                       | ---       | ---       | ---       | ---       | ---                   |
 | Logistic regression       | 0.8168    | 0.6597    | 0.3549    | 0.4615    | 0.1762                |
 | Cross-validated XGBoost   | 0.8140    | 0.6449    | 0.3541    | 0.4572    | 0.1847                |
 
-Overall, although the accuracy seems relatively high, the confusion matrices and their metrics tell us both models are rather poor. In particular, the recall scores tell us both models have a high number of false positives.
+Comparing both models, we can conclude both models perform virtually the same. However, although the accuracy seems relatively high, the confusion matrices and their metrics tell us both models are rather poor. In particular, the recall scores tell us both models have a high number of false positives.
