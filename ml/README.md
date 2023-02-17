@@ -2,7 +2,7 @@
 
 I first perform some data processing where I transform, scale and one-hot encode several features. Then, I train, validate and test a logistic regression model and a XGBoost classifier. I also do some basic work to address overfitting in the XGBoost classifier. I summarize the main results below and you can check all supporting work and comments in the notebook.
 
-First, I believe it's important to mention that without a baseline level of performance it's difficult to assess whether a model is underfitting. Thus, we mainly focus on overfitting.
+I believe it's important to mention that without a baseline level of performance it's difficult to assess whether a model is underfitting. Thus, we mainly focus on overfitting.
 
 ## Logistic regression
 
