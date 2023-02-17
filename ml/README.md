@@ -40,4 +40,4 @@ Some overall performance metrics are shown next.
 | Logistic regression       | 0.8168    | 0.6597    | 0.3549    | 0.4615    | 0.1762                |
 | Cross-validated XGBoost   | 0.8140    | 0.6449    | 0.3541    | 0.4572    | 0.1847                |
 
-Comparing both models, we can conclude both models perform virtually the same. However, although the accuracy seems relatively high, the confusion matrices and their metrics tell us both models are rather poor. In particular, the recall scores tell us both models have a high number of false positives.
+Comparing both models, we can conclude they perform virtually the same. However, although the accuracy seems relatively high, the confusion matrices and their metrics tell us both models are rather poor. In particular, the recall scores tell us both models have a high number of false positives.
