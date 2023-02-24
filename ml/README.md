@@ -41,3 +41,16 @@ Some overall performance metrics are shown next.
 | Cross-validated XGBoost   | 0.8140    | 0.6449    | 0.3541    | 0.4572    | 0.1847                |
 
 Comparing both models, we can conclude they perform virtually the same. However, although the accuracy seems relatively high, the confusion matrices and their metrics tell us both models are rather poor. In particular, the recall scores tell us both models have a high number of false positives.
+
+### Model comparison using cross-validation
+
+We take the analysis one step further and apply k-fold cross-validation to both models and compare them. The performance metrics are shown next.
+
+| Metric    | Logistic regression   | XGBoost classifier    |
+| ---       | ---                   | ---                   |
+| Accuracy  | 0.8208                | 0.8126                |   
+| Precision | 0.6801                | 0.6388                |  
+| Recall    | 0.3583                | 0.3517                |  
+| F1 score  | 0.4692                | 0.4536                |
+
+Overall, both models perform in a similar way and rather poorly. Perhaps the only important difference is in precision, where the logistic regression outperforms the XGBoost classifier. A view of how these metrics behave during the cross-validation procedure shows these results are consistent across folds (check this out in the notebook).
