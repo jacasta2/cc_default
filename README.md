@@ -2,7 +2,7 @@
 
 In this repo, I'll share my Exploratory Data Analysis (EDA) and modeling work with the [Default of Credit Card Clients Dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset) from [UCI Machine Learning](https://archive.ics.uci.edu/ml/index.php).
 
-The dataset has demographic and six-month (Apr-Sep) credit-related information from customers and an additonal feature that indicates whether these customers default on their Oct payment. The final purpose of this work is to come up with a model that predicts whether customers will default on their Oct payment. 
+The dataset has demographic and six-month (Apr-Sep) credit-related information from customers and an additional feature that indicates whether these customers default on their Oct payment. The final purpose of this work is to come up with a model that predicts whether customers will default on their Oct payment. 
 
 The EDA can be found in the folder **eda**. I hope to update this work with some feature engineering.
 

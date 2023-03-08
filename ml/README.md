@@ -30,10 +30,10 @@ The confusion matrices are shown below.
     <table>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="cm_log-reg.png" width="300"/>
+        	    <img src="../images/cm_log-reg.png" width="300"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="cm_xgboost.png" width="300"/>
+            	<img src="../images/cm_cv-xgboost.png" width="300"/>
             </td>
         </tr>
     </table>
